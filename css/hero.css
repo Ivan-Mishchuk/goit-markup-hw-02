@@ -1,6 +1,6 @@
 /* Hero Section */
 
-.hero {
+/* .hero {
     padding: 188px 0;
     text-align: center;
     background-color: var(--color-navy);
@@ -38,4 +38,36 @@
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--color-ocean);
+} */
+
+
+
+
+
+
+
+
+.hero {
+    background-color: var(--color-navy);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.hero-btn {
+    background-color: var(--color-iris);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--color-ocean);
 }

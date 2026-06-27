@@ -1,6 +1,6 @@
 /* Team Section */
 
-.team {
+/* .team {
     background-color: var(--color-cloud);
     padding: 120px 0;
 }
@@ -42,4 +42,46 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+} */
+
+
+
+
+.team {
+    background-color: var(--color-cloud);
 }
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.team-list {}
+
+.team-item {
+    background-color: var(--color-white);
+    box-shadow:
+        0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-img {}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.team-position {
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-slate);
+}
+

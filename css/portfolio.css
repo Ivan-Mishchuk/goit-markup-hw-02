@@ -1,6 +1,6 @@
 /* Portfolio Section */
 
-.portfolio {
+/* .portfolio {
     padding: 120px 0;
 }
 
@@ -34,4 +34,33 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+} */
+
+
+.portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11%;
+    text-align: center;
+    color: var(--color-navy);
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-info {}
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-navy);
+}
+
+.portfolio-category {
+    font-weight: 400;
+        color: var(--color-slate);
 }
